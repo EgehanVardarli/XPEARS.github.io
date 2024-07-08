@@ -12,7 +12,7 @@ generateButton.addEventListener('click', () => {
   const ownerUsername = ownerUsernameInput.value;
   const standUsername = standUsernameInput.value;
 
-  const generatedCode = `getgenv()._="This script made by xk5ng | If you pay for this script you get scammed, this script is completely free ok https://discord.gg/msgabv2t9Q | https://discord.gg/stando"
+  const generatedCode = `getgenv()._="This script made by xpears | If you pay for this script you get scammed, this script is completely free ok https://discord.gg/msgabv2t9Q | https://discord.gg/stando"
 getgenv().Accounts = {OWNER = '${ownerUsername}', STAND = '${standUsername}'}
 
 getgenv().StandConfig = {
@@ -57,7 +57,7 @@ getgenv().StandConfig = {
   ['CustomSong'] = 6703926669, --Enter A Song ID And Say 'Song!'
   ['SummonMusic'] = true, --[true | false]
   ['SummonMusicID'] = 'Default' -- Enter a Sound ID Put [Default] If You Would Like The Default Sound
-}loadstring(game:HttpGet("https://xk5ng.github.io/V4.6"))()`;
+}loadstring(game:HttpGet("https://xpears.github.io/V4.6"))()`;
 
   generatedCodeTextarea.value = generatedCode;
 });
